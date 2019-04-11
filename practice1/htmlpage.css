@@ -1,0 +1,299 @@
+.topMenu ul{
+    list-style-type: none;  /*不顯示前面的符號        */
+    margin:5px; /*設定外距*/
+    padding:2px; /*設定內距*/
+    overflow:hidden;  /* 若文字、圖片等物件超出預設區域範圍,overflow則會依照參數給予scroll */
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    /* width:100%;
+    height:100%; */
+    box-shadow: 4px 6px rgba(8, 8, 8, 0.363) ;
+    float:top;
+    text-align:center;
+    
+
+}
+
+.topMenu li{
+   
+    display:inline; /*inline:橫顯示; block:直顯示*/ 
+    padding:10px;
+    margin:auto;
+    font-size: 20px;    
+    float:left;
+    
+    
+}
+
+
+
+.topMenu li a{
+
+    color:white;
+    text-decoration: none; /*超連結的樣式,"none"去除超連結底線*/
+    font-size:25px;
+    padding:5px;
+   
+}
+
+.dropdown {
+
+    font-size:20px;
+    padding:10px;
+    margin:auto;
+    
+
+}
+
+.more_btn{
+
+    color:white;
+    text-decoration: none; /*超連結的樣式,"none"去除超連結底線*/
+    font-size:25px;
+    padding:5px;
+
+
+}
+
+
+
+.dropdown:hover{
+
+    background-color:rgb(122, 118, 118);
+
+
+}
+
+li.dropdown{
+
+    display: inline-block;
+
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(80, 77, 77);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding:5px;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.leftMenu{
+
+    width:250px;
+    height:100%;
+    padding-top:5px; 
+    margin-top:5px;
+    float:left;
+
+
+}
+
+
+
+.leftMenu ul{
+    display: block;
+    list-style-type:none;
+    overflow: auto;
+    background-color:rgba(169, 169, 169, 0.301);
+    margin:0;
+    padding:0;
+    float:left;
+    width: 250PX;
+    height: 500px;
+    overflow-y:scroll;
+    text-align:right;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.leftMenu h2{
+
+    padding:2px 1px 1px 16px;
+    text-align:left;
+    display: block;
+    font-size:20px;
+
+}
+
+.leftMenu li a {
+
+    padding:2px 1px 1px 16px;
+    text-align:left;
+    display: block;
+    font-size:18px; 
+
+
+
+}
+
+
+
+#mainIframe{
+    float:center;
+    width:1100px;
+    height:500px;
+    padding:15px;
+    margin:auto;
+    text-align:center;
+    border:0;
+
+
+
+
+}
+
+.rightSide{
+
+    float:right;
+    width:250px;
+    height:auto;
+    padding-top:5px; 
+    margin-top:5px;
+    overflow:auto;
+    overflow: hidden;
+    
+
+}
+
+.rightSide img{
+
+    width:auto;
+    height:auto;
+
+
+}
+
+.bottom{
+
+    clear:both;
+    width:auto;
+    height:auto;
+    background-color: antiquewhite; 
+    list-style-type: none;
+    text-decoration: none;
+    padding:5px;
+    margin:auto;
+    display:block;
+    
+}
+
+
+
+
+/*滑鼠滑過時的效果*/
+.topMenu a:hover{
+
+    background-color: rgb(122, 118, 118);
+    color:rgb(5, 42, 110);
+
+}
+
+.topMenu a:active{
+
+    background-color:green;
+    color:white;
+    
+}
+
+
+
+
+
+.topblock{
+
+    padding:5px;
+    margin:0;
+    background-color:rgba(169, 169, 169, 0.301);
+    margin:auto;
+    border-radius: 5px;
+    border-style:groove;
+    width:auto;
+    height:auto;
+}
+
+.topblock img{
+
+    border-radius: 10px;
+
+
+
+}
+
+.titleText{
+
+        display: inline;    
+        font-size: 50px; 
+        padding-top:100px;
+        float:right;
+        letter-spacing: 5px; /*文字間的間距*/
+
+}
+
+.titleText span{
+
+    color:rgb(214, 39, 39);
+
+
+}
+
+
+
+
+
+.bottom h4{
+
+    font-size:15px;
+    font-style:bold;
+
+
+
+
+}
+
+
+.bottom a{
+
+    font-size:10px;
+    font-style:"arial";
+    
+
+
+}
+
+.bottom div{
+
+    width:auto;
+    height:auto;
+    display:table-cell; /*tabel-cell 讓多個div等高*/
+    padding:10px;
+    margin:5px;
+    text-align:center;
+
+}
+
+
+
+
+
+
+
+
