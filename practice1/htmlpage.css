@@ -1,5 +1,22 @@
+.topblock {
+   
+    position: relative;
+
+
+}
+
+
+.topMenu{
+
+    position: relative;;
+    width:100%
+    
+
+}
+
+
 .topMenu ul{
-    list-style-type: none;  /*不顯示前面的符號        */
+    list-style-type: none;  /*不顯示前面的符號 */
     margin:5px; /*設定外距*/
     padding:2px; /*設定內距*/
     overflow:hidden;  /* 若文字、圖片等物件超出預設區域範圍,overflow則會依照參數給予scroll */
@@ -10,19 +27,30 @@
     box-shadow: 4px 6px rgba(8, 8, 8, 0.363) ;
     float:top;
     text-align:center;
+    border-style:solid;
+    border-bottom-style: solid;
+    position: relative;
+    
     
 
 }
+.dropdown-content h4{
 
+    color:white;
+    font-style: solid;
+
+}
 .topMenu li{
-   
+    
     display:inline; /*inline:橫顯示; block:直顯示*/ 
     padding:10px;
     margin:auto;
     font-size: 20px;    
     float:left;
+    border-right:groove;
+    position: relative;
     
-    
+
 }
 
 
@@ -33,7 +61,7 @@
     text-decoration: none; /*超連結的樣式,"none"去除超連結底線*/
     font-size:25px;
     padding:5px;
-   
+    
 }
 
 .dropdown {
@@ -41,7 +69,7 @@
     font-size:20px;
     padding:10px;
     margin:auto;
-    
+     
 
 }
 
@@ -51,7 +79,7 @@
     text-decoration: none; /*超連結的樣式,"none"去除超連結底線*/
     font-size:25px;
     padding:5px;
-
+    
 
 }
 
@@ -60,25 +88,32 @@
 .dropdown:hover{
 
     background-color:rgb(122, 118, 118);
+    
 
 
 }
 
-li.dropdown{
 
-    display: inline-block;
+.dropdown{
+
+    display:inline-block;
+    
+    
+  
 
 }
+
 
 
 .dropdown-content {
     display: none;
-    position: absolute;
-    background-color:rgb(80, 77, 77);
-    min-width: 160px;
+    background-color:rgb(0, 0, 0);
+    min-width: 500px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 2;
     padding:5px;
+    width:100%;
+
   }
 
   .dropdown-content a {
@@ -86,21 +121,24 @@ li.dropdown{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
+    text-align: center;
+    z-index:3;
     
+
   }
 
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {background-color: #000000}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
 
+
 .leftMenu{
 
     width:250px;
-    height:100%;
+    height:auto;
     padding-top:5px; 
     margin-top:5px;
     float:left;
@@ -149,13 +187,13 @@ li.dropdown{
 
 #mainIframe{
     float:center;
-    width:1100px;
+    width:750px;
     height:500px;
     padding:15px;
     margin:auto;
     text-align:center;
     border:0;
-
+    position: absolute;
 
 
 
@@ -170,14 +208,22 @@ li.dropdown{
     margin-top:5px;
     overflow:auto;
     overflow: hidden;
+   
     
-
+    
 }
 
 .rightSide img{
 
-    width:auto;
-    height:auto;
+   position: relative;;
+   height:auto;
+   width:250px;
+   
+   
+ 
+
+    
+    
 
 
 }
