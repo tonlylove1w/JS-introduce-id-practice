@@ -79,28 +79,18 @@
     text-decoration: none; /*超連結的樣式,"none"去除超連結底線*/
     font-size:25px;
     padding:5px;
-    
 
 }
 
 
 
 .dropdown:hover{
-
     background-color:rgb(122, 118, 118);
-    
-
-
 }
 
 
 .dropdown{
-
     display:inline-block;
-    
-    
-  
-
 }
 
 
@@ -113,7 +103,6 @@
     z-index: 2;
     padding:5px;
     width:100%;
-
   }
 
   .dropdown-content a {
@@ -124,9 +113,6 @@
     text-align: center;
     z-index:1;
     font-size:30px;
-    
-
-
   }
 
   .dropdown-content a:hover {background-color: #000000}
@@ -144,8 +130,6 @@
     padding-top:5px; 
     margin-top:5px;
     float:left;
-
-
 }
 
 
@@ -181,8 +165,6 @@
     display: block;
     font-size:18px; 
 
-
-
 }
 
 
@@ -196,9 +178,6 @@
     text-align:center;
     border:0;
     position: absolute;
-
-
-
 }
 
 .rightSide{
@@ -210,8 +189,6 @@
     margin-top:5px;
     overflow:auto;
     overflow: hidden;
-   
-    
     
 }
 
@@ -221,14 +198,6 @@
    height:auto;
    width:250px;
    
-   
-   
- 
-
-    
-    
-
-
 }
 
 .bottom{
@@ -259,9 +228,6 @@
 
 
 
-
-
-
 .topblock{
 
     padding:5px;
@@ -277,8 +243,6 @@
 .topblock img{
 
     border-radius: 10px;
-
-
 
 }
 
@@ -296,10 +260,7 @@
 
     color:rgb(214, 39, 39);
 
-
 }
-
-
 
 
 
@@ -307,8 +268,6 @@
 
     font-size:15px;
     font-style:bold;
-
-
 
 
 }
@@ -319,8 +278,6 @@
     font-size:10px;
     font-style:"arial";
     
-
-
 }
 
 .bottom div{
